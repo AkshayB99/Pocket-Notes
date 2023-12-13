@@ -1,0 +1,28 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.img{
+    margin-top: 30px;
+}
+.heading{
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.description{
+    font-size: 22px;
+    margin: 0px 220px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.copyRight{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+}
+.copyRightImg{
+    margin-right: 5px;
+}

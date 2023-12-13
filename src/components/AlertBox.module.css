@@ -1,0 +1,101 @@
+.mainAlert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middleBox {
+  width: 590px;
+  height: 255px;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.alertBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  background-color: #001f8b;
+  border-radius: 9px;
+  width: 120px;
+  height: 34px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.groupName {
+  margin-top: 28px;
+}
+.groupNameLabel {
+  font-size: 27px;
+}
+.groupNameInput {
+  margin-left: 15px;
+  height: 30px;
+  width: 68%;
+  border: 2px solid #cccccc;
+  border-radius: 20px;
+  font-size: 22px;
+  padding-left: 10px;
+}
+.colorGroup {
+  margin-top: 35px;
+  display: flex;
+}
+.colorHeading {
+  font-size: 27px;
+  margin-right: 10px;
+}
+.subColorGrp {
+  display: flex;
+  gap: 12px;
+}
+.colors {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .middleBox {
+    width: 370px;
+    height: 225px;
+    padding: 10px;
+  }
+  .Heading{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .groupName {
+    margin-top: 20px;
+  }
+  .groupNameLabel{
+    font-size: 18px;
+  }
+  .groupNameInput{
+    width: 58%;
+    font-size: 18px;
+  }
+  .colorGroup {
+    margin-top: 25px;
+    display: flex;
+  }
+  .colorHeading {
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  .colors {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  font-family: Roboto;
+}
+
+.main-container {
+  display: flex;
+}
+
+.left-container {
+  width: 27%;
+  height: 100vh;
+  box-shadow: 5px 0 10px rgba(221, 221, 221, 0.3);
+  z-index: 1;
+}
+
+.right-container {
+  width: 73%;
+  z-index: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .right-container {
+    display: none;
+  }
+
+  .left-container {
+    width: 100%;
+    box-shadow: none;
+  }
+  .left-container600 {
+    display: none;
+  }
+  .right-container600 {
+    width: 100%;
+    box-shadow: none;
+  }
+}
